@@ -6,6 +6,6 @@ Type = Package
 Target = *
 
 [Action]
-Description = Remover de cache paquetes inecesarios. Manteniendo los dos ultimos...
+Description = Remover de cache paquetes inecesarios ...
 When = PostTransaction
 Exec = /usr/bin/paccache -rvk2
