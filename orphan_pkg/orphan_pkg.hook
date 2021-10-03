@@ -5,8 +5,9 @@ Operation = Remove
 Type = Package
 Target = *
 
+
 [Action]
-Description = Buscando paquetes huerfanos...
+Description = Buscando paquetes huerfanos ...
 Depends = pacman
 When = PostTransaction
 Exec = /usr/bin/bash -c 'orphans=$(pacman -Qtdq); if [[ -n "$orphans" ]]; then echo -e "\e[1mPaquetes huerfanos encontrados:\e[0m\n$orphans\n\e[1mPor favor revisa y elimina los paquetes inesesarios\e[0m"; fi'
