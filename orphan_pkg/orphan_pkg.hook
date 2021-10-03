@@ -4,9 +4,7 @@ Operation = Upgrade
 Operation = Remove
 Type = Package
 Target = *
->
->
->
+
 [Action]
 Description = Buscando paquetes huerfanos...
 Depends = pacman
