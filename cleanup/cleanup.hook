@@ -8,4 +8,4 @@ Target = *
 [Action]
 Description = Buscar paquetes en cache inecesarios ...
 When = PostTransaction
-Exec = /usr/bin/paccache -rvk2
+Exec = /usr/share/libalpm/scripts/pacman_hooks/cleanup.py

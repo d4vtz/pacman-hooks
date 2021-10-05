@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 from lib.command import SysCommand
 from lib.colors import colored, Colors
 
